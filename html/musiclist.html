@@ -3,8 +3,99 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
+    <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.css"/>
+    <link rel="stylesheet" href="../css/tool.css"/>
+    <link rel="stylesheet" href="../css/musiclist.css"/>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/jquery.transit.js"></script>
+    <script src="../js/tween.js"></script>
+    <script src="../js/common-2.js"></script>
+    <script src="../js/fn.js"></script>
+    <script src="../js/musiclist.js"></script>
 </head>
 <body>
-
+    <div class="listpage">
+        <section class="music-player fl">
+            <div class="left-mask">
+                <div class="player-box">
+                    <h3 class="channel-name">Vol.1</h3>
+                    <audio src="../media/chiupi.mp3" id="audio" style="display:block;" loop="loop">audio element not supported</audio>
+                    <span style="display:block; width:44px;margin:5px auto;">
+                        <span style="display:inline-block;vertical-align:middle;width:24px;height:1px;padding-right:1px;background-color:#fff;"></span>
+                        <span style="display:inline-block;vertical-align:middle;width:4px;height:1px;padding-right:1px;background-color:#fff;"></span>
+                        <span style="display:inline-block;vertical-align:middle;width:4px;height:1px;background-color:#fff;"></span>
+                    </span>
+                    <span class="date">Oct-Dec 2017</span>
+                    <div class="music-box">
+                        <h4 class="singer">ABC</h4>
+                        <div class="song">
+                            <span class="song-name">song-name</span>
+                            <span> (<span class="time">3:30</span>) </span>
+                        </div>
+                        <div class="progress-bar clearfix">
+                            <span class="now-time">0:00</span>
+                            <div class="bar-box">
+                                <i class="bar"></i>
+                            </div>
+                            <span class="full-time">0:00</span>
+                        </div>
+                        <div class="play-btn">
+                            <button class="prev">
+                                <div><i class="prev-ico fa fa-backward"></i></div>
+                            </button>
+                            <button class="playbtn">
+                                <div class="ico1"><i class="play-ico fa fa-play"></i></div>
+                                <div class="ico2" style="display:none;"><i class="play-ico fa fa-pause"></i></div>
+                            </button>
+                            <button class="next">
+                                <div><i class="next-ico fa fa-forward"></i></div>
+                            </button>
+                        </div>
+                    </div>
+                    <canvas id='canvas' class="canvas" ></canvas>
+                </div>
+            </div>
+        </section>
+        <section class="music-list fr">
+            <div class="listen-mode">
+                <span class="mode-name" style="font-weight:bold;color:#1a5f85;">Listening mode</span>
+                <span style="display:inline-block; width:44px;margin:5px auto;">
+                    <span style="display:inline-block;vertical-align:middle;width:24px;height:1px;padding-right:1px;background-color:#7dbbeb;"></span>
+                    <span style="display:inline-block;vertical-align:middle;width:4px;height:1px;padding-right:1px;background-color:#7dbbeb;"></span>
+                    <span style="display:inline-block;vertical-align:middle;width:4px;height:1px;background-color:#7dbbeb;"></span>
+                </span>
+                <span class="song-allnum" style="font-weight:bold;color:#7dbbeb;" >26 titles - 1h22</span>
+            </div>
+            <ul class="song-list">
+                <!--<li class="song-item">
+                    <span class="index-box fl">
+                        <span class="index-ico ico1">
+                            <i class="fa fa-play"></i>
+                        </span>
+                        <span class="index-ico ico2">
+                            <i class="fa fa-pause"></i>
+                        </span>
+                        <span class="song-index">01</span>
+                    </span>
+                    <img src="../img/inuit.jpg" class="fl" alt=""/>
+                    <p class="fl">
+                        <span class="singer-name">ABC</span>
+                        <span class="song">
+                            <span class="song-name">song-name</span>
+                            <span> (<span class="time">3:30</span>) </span>
+                        </span>
+                    </p>
+                </li>-->
+            </ul>
+        </section>
+        <div class="list-btn">
+            <span class="list-ico">
+                <i class="fa fa-close"></i>
+            </span>
+            <span class="list-ico">
+                <i class="fa fa-navicon"></i>
+            </span>
+        </div>
+    </div>
 </body>
 </html>

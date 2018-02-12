@@ -1,0 +1,90 @@
+
+
+{
+    "songlist":[
+        {
+            "id":"01",
+            "songName":"Lovers",
+            "singer":"Anna of the North",
+            "songlink":"/media/Anna of the North-Lovers.mp3",
+            "img":"/airmusic/img/lovers.png",
+            "filetime":"03:35"
+        },
+        {
+            "id":"02",
+            "songName":"Where Do U Go",
+            "singer":"JMSN",
+            "songlink":"/media/JMSN-Where Do U Go.mp3",
+            "img":"/airmusic/img/where_do_u_go.jpg",
+            "filetime":"03:44",
+            "color":"red"
+        },
+        {
+            "id":"03",
+            "songName":"Apple Day",
+            "singer":"Joon Moon",
+            "songlink":"/media/Joon Moon-Apple Day.mp3",
+            "img":"/airmusic/img/apple_day.jpg",
+            "filetime":"04:50",
+            "color":"red"
+        },
+        {
+            "id":"04",
+            "songName":"Breathing",
+            "singer":"Oscar & The Wolf",
+            "songlink":"/media/Oscar & The Wolf-Breathing.mp3",
+            "img":"/airmusic/img/breathing.jpg",
+            "filetime":"03:50"
+        },
+        {
+            "id":"05",
+            "songName":"Nobody but You",
+            "singer":"Fai Baba",
+            "songlink":"/media/Fai Baba-Nobody but You.mp3",
+            "img":"/airmusic/img/nobody_but_you.jpg",
+            "filetime":"04:02",
+            "color":"red"
+        },
+        {
+            "id":"06",
+            "songName":"Nerve",
+            "singer":"Jordan Rakei",
+            "songlink":"/media/Jordan Rakei-Nerve.mp3",
+            "img":"/airmusic/img/nerve.jpg",
+            "filetime":"03:55"
+        },
+        {
+            "id":"07",
+            "songName":"Afro Blue",
+            "singer":"Melanie De Biasio",
+            "songlink":"/media/Melanie De Biasio-Afro Blue.mp3",
+            "img":"/airmusic/img/afro_blue.jpg",
+            "filetime":"04:33"
+        },
+        {
+            "id":"08",
+            "songName":"Everybody",
+            "singer":"Warhaus",
+            "songlink":"/media/Warhaus-Everybody.mp3",
+            "img":"/airmusic/img/everybody.png",
+            "filetime":"04:43"
+        },
+        {
+            "id":"09",
+            "songName":"All I Wanted",
+            "singer":"Daughter",
+            "songlink":"/media/Daughter-All I Wanted.mp3",
+            "img":"/airmusic/img/all_i_wanted.png",
+            "filetime":"03:21"
+        },
+        {
+            "id":"10",
+            "songName":"Harbours Harbors",
+            "singer":"Loney, Dear",
+            "songlink":"/media/Loney, Dear-Harbours  Harbors.mp3",
+            "img":"/airmusic/img/harbours_harbors.jpg",
+            "filetime":"04:35",
+            "color":"red"
+        }
+    ]
+}

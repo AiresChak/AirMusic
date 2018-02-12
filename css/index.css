@@ -1,0 +1,249 @@
+@font-face {
+    font-family: airfont;
+    src:url('./font.woff2');
+}
+body, h1,h2, h3,p{
+    margin: 0;
+    font-family: airfont;
+}
+img{
+    border: none;
+    vertical-align: top;
+}
+a{
+    text-decoration: none;
+    color: #0e0e0e;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    text-align: center;
+    background-color: #a2c4d1;
+    color: #194d73;
+    font-family: Inknut Antiqua,serif Arial;
+}
+.tip-box{
+    position: absolute;
+    opacity: 0;
+    top: 30px;
+    left: -300px;
+    font: bold 12px/20px 'Al Bayan';
+    width: 290px;
+    height: 80px;
+    border-radius: 20px;
+    box-shadow: 10px 20px 30px 0 rgba(0,0,0,.15);
+    overflow: hidden;
+    backface-visibility: hidden;
+    background:#000;
+}
+.tip-box img{
+    opacity: .7;
+    width: 100%;
+    height: 100%;
+}
+.tip{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 10px 15px;
+}
+.tip span:nth-of-type(1){
+    margin-right: 8px;
+}
+.music-box{
+    padding-top: 30px;
+}
+.music-head{
+    height: 40px;
+}
+.main-music{
+    position: relative;
+    height: 680px;
+}
+.main-music .content{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -300px;
+    z-index: 10;
+}
+
+.main-music .content .title span{
+    font-size: 8rem;
+    font-weight: 400;
+    color: #4876ba;
+    transition: 1s;
+    margin-top: 30px;
+    display: inline-block;
+}
+.main-music .content .title p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #4876ba;
+}
+.text-music{
+    margin-top: 5px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    word-spacing: 2px;
+}
+.main-music .img-box{
+    position: absolute;
+    height: 400px;
+    width: 100%;
+}
+.main-music .position-img{
+    position: absolute;
+    opacity: 0.4;
+}
+.main-music img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.main-music .img-1{
+    width: 198px;
+    height: 270px;
+    top: 200px;
+    left: 184px;
+    transition: 1s;
+    transform: scale(0.9);
+}
+.main-music .img-2{
+    width: 106px;
+    height: 134px;
+    top: 318px;
+    left: 354px;
+    transition: 1s;
+    transform: scale(0.9);
+}
+.main-music .img-3{
+    width: 168px;
+    height: 214px;
+    top: 198px;
+    left: 75%;
+    transition: 2.5s;
+    opacity: 0;
+    transform: scale(0.9);
+}
+.main-music .img-4{
+    width: 226px;
+    height: 167px;
+    top: 320px;
+    left: 80%;
+    transition: 2.5s;
+    opacity: 0;
+    transform: scale(0.9);
+}
+.play-list{
+    display: flex;
+    margin: 30px auto;
+    width: 162px;
+    height: 162px;
+    border-radius: 81px;
+    background-color: #194d73;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    flex-direction: column;
+}
+ .u-fill--white{
+     margin: 34px auto 20px;
+ }
+.play-list span{
+    /*display: block;*/
+    margin: 0 auto;
+    width: 80px;
+}
+.foot-music{
+    position:absolute;
+    bottom:8%;
+    left:5%;
+    font-size: 0.8rem;
+    color: #fff;
+    font-weight: 600;
+}
+.foot-music .visit{
+    float: left;
+    width: 190px;
+    height: 34px;
+    line-height: 34px;
+    border-radius: 40px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.foot-music .about{
+    float: left;
+    margin-left: 10px;
+    font-size: 0.7rem;
+    line-height: 38px;
+}
+.foot-music .about li{
+    float: left;
+    margin-right: 5px;
+    position: relative;
+
+}
+.foot-music .about li::after{
+    content: '·';
+    display: inline-block;
+    margin-left: 5px;
+}
+.foot-music .about li:nth-of-type(1)::after{
+    content: '/';
+}
+.foot-music .about li:last-of-type::after{
+    content: '';
+}
+.foot-music .about li i{
+    height: 2px;
+    background-color: #fff;
+    width: 0px;
+    position: absolute;
+    bottom: 0;
+    left: -6px;
+}
+.foot-music a span{
+    background-color: #fff;
+    display: block;
+    width: 0px;
+    height: 34px;
+    position: absolute;
+    border-radius: 40px;
+    top: 0;
+    left: 50%;
+    font-size: 0;
+    color: #194d73
+;
+}
+.btn-more, .btn-voice{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    right: 60px;
+}
+.btn-more{
+    top: 10%;
+}
+.btn-voice{
+    bottom: 8%;
+}
+.load{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #22354b;
+    z-index: 100;
+}
+
